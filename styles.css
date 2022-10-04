@@ -6,3 +6,11 @@
   text-align: center;
   margin-top: 32px;
 }
+
+.center {
+  text-align: center;
+}
+
+.title-font {
+  font-family: 'Merienda', cursive;
+}
