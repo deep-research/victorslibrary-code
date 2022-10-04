@@ -7,10 +7,14 @@
   margin-top: 32px;
 }
 
-.center {
+.text-center {
   text-align: center;
 }
 
 .title-font {
   font-family: 'Merienda', cursive;
+}
+
+.list-disk {
+  list-style-type: disc;
 }
