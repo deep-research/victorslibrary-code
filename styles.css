@@ -31,11 +31,11 @@
   opacity: .5;
 }
 
-.last-item {
-  margin-bottom: 24px;
-}
-
 .responsive {
   max-width: 100%;
   height: auto;
+}
+
+#disqus_thread {
+  margin-top: 36px;
 }
