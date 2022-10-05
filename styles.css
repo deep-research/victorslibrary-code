@@ -30,3 +30,7 @@
 .video-thumbnail:hover img {
   opacity: .5;
 }
+
+.last-item {
+  margin-bottom: 24px;
+}
