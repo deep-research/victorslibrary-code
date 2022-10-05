@@ -31,6 +31,15 @@
   display: block;
 }
 
+/* https://www.samanthaming.com/tidbits/53-css-counter/ */
+.video-gallery {
+  counter-reset: video-counter;
+}
+.video-count::before {
+  counter-increment: video-counter;
+  content: counter(video-counter) ". ";
+}
+
 #disqus_thread {
   margin-top: 36px;
 }
