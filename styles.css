@@ -18,3 +18,15 @@
 .list-disk {
   list-style-type: disc;
 }
+
+.video-thumbnail {
+  display: inline-block;
+}
+
+.video-thumbnail img {
+  display: block;
+}
+
+.video-thumbnail:hover img {
+  opacity: .5;
+}
