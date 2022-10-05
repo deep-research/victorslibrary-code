@@ -40,6 +40,10 @@
   content: counter(video-counter) ". ";
 }
 
+.video-info {
+  padding-left: 20px;
+}
+
 #disqus_thread {
   margin-top: 36px;
 }
