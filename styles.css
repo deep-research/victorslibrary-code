@@ -19,21 +19,16 @@
   list-style-type: disc;
 }
 
+.video-thumbnail img:hover {
+  opacity: .5;
+}
+
 .video-thumbnail {
   display: inline-block;
 }
 
 .video-thumbnail img {
   display: block;
-}
-
-.video-thumbnail:hover img {
-  opacity: .5;
-}
-
-.responsive {
-  max-width: 100%;
-  height: auto;
 }
 
 #disqus_thread {
