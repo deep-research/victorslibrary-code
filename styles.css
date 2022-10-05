@@ -34,3 +34,8 @@
 .last-item {
   margin-bottom: 24px;
 }
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
