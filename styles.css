@@ -19,10 +19,6 @@
   list-style-type: disc;
 }
 
-.video-thumbnail img:hover {
-  opacity: .5;
-}
-
 .video-thumbnail {
   display: inline-block;
 }
