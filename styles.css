@@ -19,28 +19,28 @@
   list-style-type: disc;
 }
 
-.video-thumbnail {
+.media-thumbnail {
   display: inline-block;
 }
 
-.video-thumbnail img {
+.media-thumbnail img {
   display: block;
 }
 
 /* https://www.samanthaming.com/tidbits/53-css-counter/ */
-.video-gallery {
-  counter-reset: video-counter;
+.media-gallery {
+  counter-reset: media-counter;
 }
-.video-count::before {
-  counter-increment: video-counter;
-  content: counter(video-counter) ". ";
+.media-count::before {
+  counter-increment: media-counter;
+  content: counter(media-counter) ". ";
 }
 
-.video-info {
+.media-info {
   padding-left: 20px;
 }
 
-.video-title {
+.media-title {
   margin-bottom: 0;
   margin-top: 0;
 }
