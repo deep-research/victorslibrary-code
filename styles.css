@@ -15,6 +15,11 @@
   font-family: 'Merienda', cursive;
 }
 
+.title-font a {
+  text-decoration: none;
+  color: black;
+}
+
 .list-disk {
   list-style-type: disc;
 }
